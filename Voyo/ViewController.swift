@@ -19,6 +19,8 @@ class DeviceCell: UITableViewCell {
 
 class ViewController: UIViewController, CBCentralManagerDelegate {
 
+    
+    ///sajdjksagdjasgdisg uug
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var nameLbl: UILabel!
