@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040043D921ACF0E9008830B0 /* VoyoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040043D821ACF0E9008830B0 /* VoyoAPI.framework */; };
+		040043DA21ACF128008830B0 /* VoyoAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040043D821ACF0E9008830B0 /* VoyoAPI.framework */; };
+		040043DB21ACF128008830B0 /* VoyoAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040043D821ACF0E9008830B0 /* VoyoAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0429BD46216769BB0044D654 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429BD3A216769BB0044D654 /* FTIndicator.m */; };
+		0429BD47216769BB0044D654 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429BD3C216769BB0044D654 /* FTToastIndicator.m */; };
+		0429BD48216769BB0044D654 /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0429BD3F216769BB0044D654 /* FTProgressIndicator.bundle */; };
+		0429BD49216769BB0044D654 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429BD41216769BB0044D654 /* FTProgressIndicator.m */; };
+		0429BD4A216769BB0044D654 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429BD43216769BB0044D654 /* FTNotificationIndicator.m */; };
+		04470309216484ED00E23C9E /* BaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04470308216484ED00E23C9E /* BaseApp.swift */; };
+		044A3EDC21622D7B00BA92BD /* LoginViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A3EDB21622D7B00BA92BD /* LoginViewViewController.swift */; };
+		04546DC02167618200482514 /* VSNumberKeyboardAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04546DBD2167618200482514 /* VSNumberKeyboardAccessoryView.m */; };
+		04546DC12167618200482514 /* VSNumberKeyboardAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04546DBE2167618200482514 /* VSNumberKeyboardAccessoryView.xib */; };
+		0461CB55219D42DB004C62E4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CB54219D42DB004C62E4 /* SplashViewController.swift */; };
+		0461CB57219D6D7F004C62E4 /* VoyoResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0461CB56219D6D7F004C62E4 /* VoyoResultViewController.swift */; };
+		04BC663C2162072600EA4B7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC663B2162072600EA4B7F /* AppDelegate.swift */; };
+		04BC663E2162072600EA4B7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC663D2162072600EA4B7F /* ViewController.swift */; };
+		04BC66412162072600EA4B7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BC663F2162072600EA4B7F /* Main.storyboard */; };
+		04BC66432162072600EA4B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BC66422162072600EA4B7F /* Assets.xcassets */; };
+		04BC66462162072600EA4B7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BC66442162072600EA4B7F /* LaunchScreen.storyboard */; };
+		04FB03742165DC210012A218 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB03732165DC210012A218 /* RegisterViewController.swift */; };
+		3054CAC778FF16FF013B63FA /* Pods_Voyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F5645236020DDE3554FBAF /* Pods_Voyo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04BC6651216213CA00EA4B7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				040043DB21ACF128008830B0 /* VoyoAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040043D821ACF0E9008830B0 /* VoyoAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VoyoAPI.framework; sourceTree = "<group>"; };
+		0429BD3A216769BB0044D654 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		0429BD3C216769BB0044D654 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		0429BD3D216769BB0044D654 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		0429BD3F216769BB0044D654 /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		0429BD40216769BB0044D654 /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		0429BD41216769BB0044D654 /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		0429BD43216769BB0044D654 /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		0429BD44216769BB0044D654 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		0429BD45216769BB0044D654 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		04470308216484ED00E23C9E /* BaseApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApp.swift; sourceTree = "<group>"; };
+		044A3EDB21622D7B00BA92BD /* LoginViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewController.swift; sourceTree = "<group>"; };
+		04546DBD2167618200482514 /* VSNumberKeyboardAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSNumberKeyboardAccessoryView.m; sourceTree = "<group>"; };
+		04546DBE2167618200482514 /* VSNumberKeyboardAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSNumberKeyboardAccessoryView.xib; sourceTree = "<group>"; };
+		04546DBF2167618200482514 /* VSNumberKeyboardAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNumberKeyboardAccessoryView.h; sourceTree = "<group>"; };
+		0461CB54219D42DB004C62E4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0461CB56219D6D7F004C62E4 /* VoyoResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyoResultViewController.swift; sourceTree = "<group>"; };
+		04BC66382162072600EA4B7F /* Voyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BC663B2162072600EA4B7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04BC663D2162072600EA4B7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04BC66402162072600EA4B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BC66422162072600EA4B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BC66452162072600EA4B7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BC66472162072600EA4B7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB03732165DC210012A218 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04FB03752165DCB00012A218 /* Voyo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Voyo-Bridging-Header.h"; sourceTree = "<group>"; };
+		57F5645236020DDE3554FBAF /* Pods_Voyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D46D1291CE50E60E9ABE56E /* Pods-Voyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voyo/Pods-Voyo.debug.xcconfig"; sourceTree = "<group>"; };
+		A6AC3ADF0829C38FD68ADD79 /* Pods-Voyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voyo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voyo/Pods-Voyo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BC66352162072600EA4B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040043DA21ACF128008830B0 /* VoyoAPI.framework in Frameworks */,
+				040043D921ACF0E9008830B0 /* VoyoAPI.framework in Frameworks */,
+				3054CAC778FF16FF013B63FA /* Pods_Voyo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429BD39216769BB0044D654 /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				0429BD3A216769BB0044D654 /* FTIndicator.m */,
+				0429BD3B216769BB0044D654 /* FTToastIndicator */,
+				0429BD3E216769BB0044D654 /* FTProgressIndicator */,
+				0429BD42216769BB0044D654 /* FTNotificationIndicator */,
+				0429BD45216769BB0044D654 /* FTIndicator.h */,
+			);
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		0429BD3B216769BB0044D654 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				0429BD3C216769BB0044D654 /* FTToastIndicator.m */,
+				0429BD3D216769BB0044D654 /* FTToastIndicator.h */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		0429BD3E216769BB0044D654 /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				0429BD3F216769BB0044D654 /* FTProgressIndicator.bundle */,
+				0429BD40216769BB0044D654 /* FTProgressIndicator.h */,
+				0429BD41216769BB0044D654 /* FTProgressIndicator.m */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		0429BD42216769BB0044D654 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				0429BD43216769BB0044D654 /* FTNotificationIndicator.m */,
+				0429BD44216769BB0044D654 /* FTNotificationIndicator.h */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		04546DBB2167615B00482514 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0429BD39216769BB0044D654 /* FTIndicator */,
+				04546DBC2167618200482514 /* Number */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		04546DBC2167618200482514 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				04546DBD2167618200482514 /* VSNumberKeyboardAccessoryView.m */,
+				04546DBE2167618200482514 /* VSNumberKeyboardAccessoryView.xib */,
+				04546DBF2167618200482514 /* VSNumberKeyboardAccessoryView.h */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		04BC662F2162072600EA4B7F = {
+			isa = PBXGroup;
+			children = (
+				04BC663A2162072600EA4B7F /* Voyo */,
+				04BC66392162072600EA4B7F /* Products */,
+				1BE8F5FD16923A07AB004F3D /* Pods */,
+				A3F3BAB4A153047E08E662B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04BC66392162072600EA4B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BC66382162072600EA4B7F /* Voyo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BC663A2162072600EA4B7F /* Voyo */ = {
+			isa = PBXGroup;
+			children = (
+				04546DBB2167615B00482514 /* ThirdParty */,
+				04BC663B2162072600EA4B7F /* AppDelegate.swift */,
+				04BC663D2162072600EA4B7F /* ViewController.swift */,
+				04BC663F2162072600EA4B7F /* Main.storyboard */,
+				04BC66422162072600EA4B7F /* Assets.xcassets */,
+				04BC66442162072600EA4B7F /* LaunchScreen.storyboard */,
+				04BC66472162072600EA4B7F /* Info.plist */,
+				04470308216484ED00E23C9E /* BaseApp.swift */,
+				044A3EDB21622D7B00BA92BD /* LoginViewViewController.swift */,
+				04FB03732165DC210012A218 /* RegisterViewController.swift */,
+				04FB03752165DCB00012A218 /* Voyo-Bridging-Header.h */,
+				0461CB54219D42DB004C62E4 /* SplashViewController.swift */,
+				0461CB56219D6D7F004C62E4 /* VoyoResultViewController.swift */,
+			);
+			path = Voyo;
+			sourceTree = "<group>";
+		};
+		1BE8F5FD16923A07AB004F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D46D1291CE50E60E9ABE56E /* Pods-Voyo.debug.xcconfig */,
+				A6AC3ADF0829C38FD68ADD79 /* Pods-Voyo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3F3BAB4A153047E08E662B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040043D821ACF0E9008830B0 /* VoyoAPI.framework */,
+				57F5645236020DDE3554FBAF /* Pods_Voyo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BC66372162072600EA4B7F /* Voyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BC664A2162072600EA4B7F /* Build configuration list for PBXNativeTarget "Voyo" */;
+			buildPhases = (
+				DA5731AAC07629AB4A9C1C7A /* [CP] Check Pods Manifest.lock */,
+				04BC66342162072600EA4B7F /* Sources */,
+				04BC66352162072600EA4B7F /* Frameworks */,
+				04BC66362162072600EA4B7F /* Resources */,
+				5724F35E8ACE32BAD99E7B25 /* [CP] Embed Pods Frameworks */,
+				04BC6651216213CA00EA4B7F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voyo;
+			productName = Voyo;
+			productReference = 04BC66382162072600EA4B7F /* Voyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BC66302162072600EA4B7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04BC66372162072600EA4B7F = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 04BC66332162072600EA4B7F /* Build configuration list for PBXProject "Voyo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BC662F2162072600EA4B7F;
+			productRefGroup = 04BC66392162072600EA4B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BC66372162072600EA4B7F /* Voyo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BC66362162072600EA4B7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04546DC12167618200482514 /* VSNumberKeyboardAccessoryView.xib in Resources */,
+				0429BD48216769BB0044D654 /* FTProgressIndicator.bundle in Resources */,
+				04BC66462162072600EA4B7F /* LaunchScreen.storyboard in Resources */,
+				04BC66432162072600EA4B7F /* Assets.xcassets in Resources */,
+				04BC66412162072600EA4B7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5724F35E8ACE32BAD99E7B25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Voyo/Pods-Voyo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/KDPulseButton/KDPulseButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDPulseButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voyo/Pods-Voyo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5731AAC07629AB4A9C1C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Voyo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BC66342162072600EA4B7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0461CB57219D6D7F004C62E4 /* VoyoResultViewController.swift in Sources */,
+				04546DC02167618200482514 /* VSNumberKeyboardAccessoryView.m in Sources */,
+				04470309216484ED00E23C9E /* BaseApp.swift in Sources */,
+				04FB03742165DC210012A218 /* RegisterViewController.swift in Sources */,
+				04BC663E2162072600EA4B7F /* ViewController.swift in Sources */,
+				0429BD46216769BB0044D654 /* FTIndicator.m in Sources */,
+				04BC663C2162072600EA4B7F /* AppDelegate.swift in Sources */,
+				0429BD4A216769BB0044D654 /* FTNotificationIndicator.m in Sources */,
+				0429BD49216769BB0044D654 /* FTProgressIndicator.m in Sources */,
+				044A3EDC21622D7B00BA92BD /* LoginViewViewController.swift in Sources */,
+				0429BD47216769BB0044D654 /* FTToastIndicator.m in Sources */,
+				0461CB55219D42DB004C62E4 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04BC663F2162072600EA4B7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BC66402162072600EA4B7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BC66442162072600EA4B7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BC66452162072600EA4B7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BC66482162072600EA4B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BC66492162072600EA4B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BC664B2162072600EA4B7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D46D1291CE50E60E9ABE56E /* Pods-Voyo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHU9DZ5PLW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Voyo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vehicleVisuals.Voyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Voyo/Voyo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BC664C2162072600EA4B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6AC3ADF0829C38FD68ADD79 /* Pods-Voyo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHU9DZ5PLW;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Voyo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vehicleVisuals.Voyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Voyo/Voyo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BC66332162072600EA4B7F /* Build configuration list for PBXProject "Voyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BC66482162072600EA4B7F /* Debug */,
+				04BC66492162072600EA4B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BC664A2162072600EA4B7F /* Build configuration list for PBXNativeTarget "Voyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BC664B2162072600EA4B7F /* Debug */,
+				04BC664C2162072600EA4B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BC66302162072600EA4B7F /* Project object */;
+}
